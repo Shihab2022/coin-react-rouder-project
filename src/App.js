@@ -5,6 +5,7 @@ import CoinCard from "./Compomants/CoinCard/CoinCard";
 import Contact from "./Compomants/Contact/Contact";
 import About from "./Compomants/About/About";
 import Header from "./Compomants/Header/Header";
+import CoinDetails from "./Compomants/CoinDetails/CoinDetails";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<HomePage></HomePage>}></Route>
         <Route path="/coin" element={<CoinCard></CoinCard>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/coin-details/:id' element={<CoinDetails></CoinDetails>}></Route>
         <Route path='/about' element={<About></About>}></Route>
       </Routes>
     </div>
