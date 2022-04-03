@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# coin project-react-router-project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## project requirements link :
+[ https://docs.google.com/document/d/1P79pb6Y9k7zb5pvdHTqMfLrIjnT3hXRlL9hpCxWVbOU/edit ]
+## live site link :
+ [ https://bright-brioche-418c17.netlify.app/ ]
 
-## Available Scripts
+## all api link 
+[ https://www.coingecko.com/en/api/documentation ]
 
-In the project directory, you can run:
+## all data link  
+[ https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false ]
 
 ### `npm start`
 
