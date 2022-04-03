@@ -7,7 +7,7 @@ const Card = ({ coin }) => {
   return (
     <div>
       <Link to={`/coin-details/${coin.id}`}>
-        <div className="flex gap-20   m-5 justify-around items-center bg-sky-200 shadow-lg rounded-lg">
+        <div className="flex gap-20 w-[280px]   m-5 justify-around items-center bg-sky-200 shadow-lg rounded-lg">
           <img src={image} className="w-[75px] rounded-full py-3 " alt="" />
           <div>
             <p className="text-xl text-black">{name}</p>

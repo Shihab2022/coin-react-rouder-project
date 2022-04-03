@@ -16,7 +16,7 @@ const CoinCard = () => {
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-4 px-40">
+      <div className="grid md:grid-cols-4 md:px-40 justify-center">
         {coins.map((coin) => (
           <Card coin={coin} key={coin.ath}></Card>
         ))}
