@@ -6,6 +6,7 @@ import Contact from "./Compomants/Contact/Contact";
 import About from "./Compomants/About/About";
 import Header from "./Compomants/Header/Header";
 import CoinDetails from "./Compomants/CoinDetails/CoinDetails";
+import Footer from "./Compomants/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/coin-details/:id' element={<CoinDetails></CoinDetails>}></Route>
         <Route path='/about' element={<About></About>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import useProducts from "../../hooks/getAllCoin";
 import Card from "../Card/Card";
 
 const CoinCard = () => {
-  const [coins, setCoins] = useProducts();
+  const [coins] = useProducts();
   // console.log(coins)
   return (
     <div>

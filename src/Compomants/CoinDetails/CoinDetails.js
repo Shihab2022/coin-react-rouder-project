@@ -3,7 +3,7 @@ import useDetails from "../../hooks/SingleDetiles";
 
 const CoinDetails = () => {
   // const {id}=useParams()
-  const [coin, setCoin] = useDetails();
+  const [coin] = useDetails();
   const {
     name,
     market_cap_rank,
@@ -17,7 +17,7 @@ const CoinDetails = () => {
     liquidity_score,
     public_interest_score,
   } = coin;
-  console.log(coin);
+//   console.log(coin);
   return (
     <div className="grid md:grid-cols-2 justify-center items-center md:px-20 md:py-10 bg-zinc-100">
       <div className="w-100 md:flex md:flex-col md:pl-60 py-10 md:justify-center  md:items-start">
